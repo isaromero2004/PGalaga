@@ -5,5 +5,11 @@ using namespace std;
 
 class nave
 {
+private: 
+	int salud = 100;
+public:
+	void moverX();
+	void disparar();
+
 };
 
