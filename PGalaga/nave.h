@@ -5,6 +5,5 @@ using namespace std;
 
 class nave
 {
-public: 
 };
 
