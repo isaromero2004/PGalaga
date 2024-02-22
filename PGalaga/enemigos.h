@@ -3,8 +3,8 @@
 
 using namespace std;
 
-class nave
+class enemigos
 {
-public: 
+private: 
 };
 
