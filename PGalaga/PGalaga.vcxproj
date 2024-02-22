@@ -127,14 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="balas.h" />
+    <ClInclude Include="bonus.h" />
     <ClInclude Include="enemigos.h" />
+    <ClInclude Include="escenario.h" />
     <ClInclude Include="nave.h" />
     <ClInclude Include="score.h" />
+    <ClInclude Include="temporizador.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="balas.cpp" />
+    <ClCompile Include="bonus.cpp" />
     <ClCompile Include="enemigos.cpp" />
+    <ClCompile Include="escenario.cpp" />
     <ClCompile Include="nave.cpp" />
     <ClCompile Include="score.cpp" />
+    <ClCompile Include="temporizador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
