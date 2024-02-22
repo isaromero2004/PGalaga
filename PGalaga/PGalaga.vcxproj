@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="enemigos.h" />
     <ClInclude Include="nave.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="enemigos.cpp" />
     <ClCompile Include="nave.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
