@@ -6,14 +6,16 @@ class escenario
 {
 private:
 	int score;
-	bool gameover;
+	int vidas;
 
 public:
 	void mostrar_score();
 	void reiniciar();
 	void pause();
-	bool mostrar_gameover();
+	void mostrar_gameover();
 	void mostrar_record();
+	void actualizar();
+
 
 };
 

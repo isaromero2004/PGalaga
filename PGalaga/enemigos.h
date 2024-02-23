@@ -9,13 +9,17 @@ class enemigos
 private:
 	int salud = 100;
 	string color;
-	float moverX;
+	float posicionX;
+	float posicionY;
 	int ancho;
 	int alto;
+	int velocidad;
+
 public:
 	void moverX();
+	void moverY();
 	void disparar();
-	void navedestruida();
-	void daño(int daño);
+	void morir();
+	void daño();
 };
 

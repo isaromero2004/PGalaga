@@ -5,6 +5,7 @@
 class balas
 {
 private:
+
 	int posicionX;
 	int posicionY;
 	int velocidad;
